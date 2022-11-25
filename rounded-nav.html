@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Side Navigation bar with indicator</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav">
+                <div class="hamburger">
+                    <div class="lines">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                </div>
+                <ul class="nav-list">
+
+                    <li style="--i:0" class="nav-item active">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-tag"></i>
+                            <span class="link-text">Jobs</span>
+                        </a>
+                    </li>
+                    <li style="--i:1" class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-chart-simple"></i>
+                            <span class="link-text">Charts</span>
+                        </a>
+                    </li>
+                    <li style="--i:2" class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-signature"></i>
+                            <span class="link-text">Signed</span>
+                        </a>
+                    </li>
+                    <li style="--i:3" class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-arrows-to-dot"></i>
+                            <span class="link-text">Meeting</span>
+                        </a>
+                    </li>
+                    <li style="--i:4" class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-folder"></i>
+                            <span class="link-text">Files</span>
+                        </a>
+                    </li>
+                    <li style="--i:5" class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-list-check"></i>
+                            <span class="link-text">Checked List</span>
+                        </a>
+                    </li>
+                    <li style="--i:6" class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fas fa-timeline"></i>
+                            <span class="link-text">Proccess</span>
+                        </a>
+                    </li>
+                     <div class="indicator"></div>
+                </ul>
+            </nav>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
